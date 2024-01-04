@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.footer-main{
+    color: #ffffff;
+    margin-top: 3rem;
+    background-color: rgba(224, 224, 224, 0.702);
+    color: black;
+
+}
+.heading-footer{
+    margin-bottom: 1rem;
+}.footer-main {
+  height: 12rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.line{
+    border-right: 1px solid black;
+    height: 6rem
+}
+.icon{
+    height: 1.6rem;
+    color: black;
+}
+.icon:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.phone:hover, .gmail:hover{
+    cursor: default;
+}
+
+.social, .address, .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    width: 15rem;
+}
+a{
+    text-align: center;
+    height: 1.6rem;
+}
+.gmail, .phone{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+.social-icons, .cont-icons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 0.5rem;
+
+}
+.cont-det{
+    display: flex;
+    width: 75%;
+
+    justify-content: space-between;
+}
+.addr{
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+.addr input{
+    margin-bottom: 0.2rem;
+    border-bottom: 1px solid black;
+    padding-left: 1rem;
+}
+.addr button{
+    background-color: #CC202E;
+    border: none;
+    position: absolute;
+    bottom: -1.6rem;
+    left: 50%;
+    transform: translate(-50%);
+    min-width: 4rem;
+    border-radius: 22px;
+    transition: all 0.3s ease-in;
+}
+.addr button:hover{
+    color: white;
+
+}
+.addr input:focus{
+    border-left: 3px solid #CC202E;
+}
+.copyright{
+    background-color: #CC202E;
+    text-align: center;
+    color: white;
+
+}
+@media screen and (max-width: 426px){
+    .footer-main{
+        flex-direction: column;
+        padding: 3rem 0;
+        height: auto;
+    }
+    .social, .address, .contact{
+        height: 4rem;
+    }
+    .social-icons{
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .cont-icons{
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+    .line{
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+}

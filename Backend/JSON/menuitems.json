@@ -1,0 +1,624 @@
+[
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "Spaghetti Carbonara",
+    "description": "Creamy pasta with bacon and parmesan cheese.",
+    "price": 149,
+    "category": "Pasta",
+    "image": "spaghetti.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "Margherita",
+    "description": "A hugely popular margherita, with a deliciously tangy single cheese topping.",
+    "price": 209,
+    "category": "Veg Pizza",
+    "image": "margherita.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "Peppy Paneer",
+    "description": "Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!.",
+    "price": 220,
+    "category": "Veg Pizza",
+    "image": "peppypaneer.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "Farm House",
+    "description": "A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes.",
+    "price": 250,
+    "category": "Veg Pizza",
+    "image": "farmhouse.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "Cheese N Corn",
+    "description": "Cheese I Golden Corn | Cheese n Corn Pizza.",
+    "price": 199,
+    "category": "Veg Pizza",
+    "image": "cheeseNcorn.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "Indi Tandoori Paneer",
+    "description": "It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with capsicum I red paprika I mint mayo.",
+    "price": 209,
+    "category": "Veg Pizza",
+    "image": "inditandoor.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "Moroccan Spice Pasta Pizza - VEG",
+    "description": "A pizza loaded with a spicy combination of Harissa sauce and delicious pasta.",
+    "price": 239,
+    "category": "Veg Pizza",
+    "image": "moroccan.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "The 4 Cheese Pizza",
+    "description": "Cheese Overloaded pizza with 4 different varieties of cheese and 4 times the cheese of a normal pizza, including a spicy hit of Ghost.",
+    "price": 240,
+    "category": "Veg Pizza",
+    "image": "the4.jpg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "Pepper Barbecue Chicken",
+    "description": "Pepper Barbecue Chicken I Cheese. ",
+    "price": 259,
+    "category": "Non Veg Pizza",
+    "image": "pepperbbq.png",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "Chicken Dominator",
+    "description": "Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka & Grilled Chicken Rashers.",
+    "price": 266,
+    "category": "Pizza",
+    "image": "margherita.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "Non Veg Supreme",
+    "description": "Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ Chicken, Peri-Peri Chicken, Grilled Chicken Rashers.",
+    "price": 290,
+    "category": "Non-Veg Pizza",
+    "image": "nonsupreme.png",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bb9",
+    "name": "Chicken Golden Delight",
+    "description": "Mmm! Barbeque chicken with a topping of golden corn loaded with extra cheese. Worth its weight in gold!",
+    "price": 299,
+    "category": "Non-Veg Pizza",
+    "image": "chickengolden.png",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bba",
+    "name": "The Allu Arjun Combo",
+    "description": "Try Allus fav-1 Hot & Crispy Chicken,1 Smoky Red, Reg Popcorn, Spicy Fries & 1 Dip 20gm",
+    "price": 448.57,
+    "category": "Chicken Buckets",
+    "image": "allu_combo.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bba",
+    "name": "All in One Bucket",
+    "description": "1 Leg, 1 Hot & Crispy, 2 Wings, 2 Strips, 1 Zinger Fillet, 3 Dips [20gm each] & 1 Pepsi 475 m",
+    "price": 548.57,
+    "category": "Chicken Buckets",
+    "image": "all_in_one.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bba",
+    "name": "Stay Home Bucket",
+    "description": "Save 21% on 4 Hot & Crispy, 4 Wings, 6 Peri Strips & 2 dips (20gm each)",
+    "price": 788.57,
+    "category": "Chicken Buckets",
+    "image": "stay_home.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bba",
+    "name": "Peri Peri 5 Leg Pc Meal",
+    "description": "5 Spicy Peri Peri Leg Pieces, 2 Dips (20gm each), 1 Med Fries & 1 Pepsi 475ml",
+    "price": 628.57,
+    "category": "Chicken Buckets",
+    "image": "peri_5.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bba",
+    "name": "Ultimate Savings Bucket",
+    "description": "Save 35% on 4pc Hot & Crispy, 6 Wings, 4 Strips, 2 Dips (20gm each) & 1 Pepsi 475ml",
+    "price": 699.05,
+    "category": "Chicken Buckets",
+    "image": "ultimate_savings.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bba",
+    "name": "Mingles Bucket Meal",
+    "description": "Save Rs. 71 on 4 Wings,2 Peri Strips, Reg Popcorn, Med Fries & 1 Pepsi 475ml",
+    "price": 499.05,
+    "category": "Chicken Buckets",
+    "image": "mingles_bucket.jpeg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bba",
+    "name": "Single Chicken Roll",
+    "description": "Street style roll with single chicken strip, onions and two spicy sauce",
+    "price": 119.05,
+    "category": "Value Snackers",
+    "image": "chicken_roll.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bba",
+    "name": "Chocolate Lava Cake",
+    "description": "Soft Chocolate cake with a gooey center- perfect chocolaty end to every meal",
+    "price": 108.57,
+    "category": "Value Snackers",
+    "image": "chocolate_lava.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bba",
+    "name": "2 Veg Longer Burger",
+    "description": "The really long burger with Veg Patty, Onion, Lettuce and two sauces",
+    "price": 198.1,
+    "category": "Value Snackers",
+    "image": "veg_longer.jpeg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bba",
+    "name": "5 Leg Pc & 2 Dips Bucket",
+    "description": "Save Rs. 120 on 5 Peri Peri Leg Pieces, paired with 2 delicious dips (20gm each)",
+    "price": 519.05,
+    "category": "Peri Peri Chicken",
+    "image": "5leg_2dips.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bba",
+    "name": "Peri Peri 10 Pc Chicken Strips & 2 Dips",
+    "description": "Save 24% on 10 Spicy Peri Peri chicken boneless strips with 2 Dips",
+    "price": 499.05,
+    "category": "Peri Peri Chicken",
+    "image": "per_10.jpeg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbb",
+    "name": "Crispy Veg Burger",
+    "description": "Crispy veg Patty burger, our best seller.",
+    "price": 50,
+    "category": "Veg Burger",
+    "image": "crispyveg.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbb",
+    "name": "Crispy Veg Double Patty",
+    "description": "Double up our best selling crispy veg burger.",
+    "price": 79,
+    "category": "Veg Burger",
+    "image": "crispydoub.jpeg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbb",
+    "name": "BK Chicken Burger",
+    "description": "Our Tribute to classic American taste.",
+    "price": 129,
+    "category": "Non Veg Burger",
+    "image": "crispydoub.jpeg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbb",
+    "name": "Whopper JR Chicken",
+    "description": "Our Signature Whopper with 7 layers between the buns.",
+    "price": 159,
+    "category": "Non Veg Burger",
+    "image": "whooperChick.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbb",
+    "name": "Masala Chai",
+    "description": "Masala Chai.",
+    "price": 59,
+    "category": "Drinks",
+    "image": "chai.jpeg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbb",
+    "name": "Cappuccino(Small)",
+    "description": "Our Signature BK Cafe Coffee with Steamed milk & milk froth.",
+    "price": 139,
+    "category": "Drinks",
+    "image": "cappuccino.jpeg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbb",
+    "name": "Chocochip Muffin",
+    "description": "Soft and Fluffy chocolate cake topped with chocolate chips.",
+    "price": 109,
+    "category": "Snacks",
+    "image": "chocochip.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbb",
+    "name": "Berry Blast Thickshake",
+    "description": "Rich Creamy Black Currant Thick shake.",
+    "price": 189,
+    "category": "Drinks",
+    "image": "berry.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbb",
+    "name": "Mocha Frappe",
+    "description": "Chocolate Flavoured Cold Coffee topped with Cream.",
+    "price": 249,
+    "category": "Drinks",
+    "image": "mocha.jpeg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbb",
+    "name": "Vanilla Softie",
+    "description": "Ice cream with cone. Anytime happiness.",
+    "price": 25,
+    "category": "Desserts",
+    "image": "mocha.jpeg",
+    "qty": 0
+  },
+
+
+
+
+
+
+
+
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Paneer Tikka",
+    "description": "Grilled chunks of cottage cheese, capsicum and onions marinated in a spiced yogurt based marinade, skewered and grilled till brown, in the tandoor clay oven.",
+    "price": 310.0,
+    "category": "Starters",
+    "image": "paneer_tikka.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Tangadi Kebab - Half Portion",
+    "description": "A popular appetizer made with chicken drumsticks, spices, curd and cream.",
+    "price": 420.0,
+    "category": "Starters",
+    "image": "kebab_half.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Paneer Malai Tikka",
+    "description": "This Paneer dish is made in a creamy cashew-based gravy with a distinct flavor of cardamom.",
+    "price": 340.0,
+    "category": "Starters",
+    "image": "paneer_malai.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Mutton Seekh Kebab",
+    "description": "Mutton Seekh Kebab is a Mughlai delicacy prepared with minced mutton, onions and a blend of spices.",
+    "price": 570.0,
+    "category": "Starters",
+    "image": "mutton_seekh.jpg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Chicken Biriyani",
+    "description": "A delicious savory rice dish loaded with spicy marinated chicken, caramelized onions, and flavorful Basmati rice.",
+    "price": 270.0,
+    "category": "Rice",
+    "image": "chicken_biriyani.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Vegetable Biriyani",
+    "description": "A delicious varied mixture of succulent vegetables, spices, ghee, saffron, and flavorful Basmati rice",
+    "price": 190.0,
+    "category": "Rice",
+    "image": "veg_biriyani.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Jeera Rice",
+    "description": "Flavored Indian rice dish made by cooking basmati rice with ghee, cumin & other fragrant spices",
+    "price": 170.0,
+    "category": "Rice",
+    "image": "jeera_rice.jpg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Plain Roti - Tandoori",
+    "description": "Tandoori Roti is a very popular Indian flatbread recipe. It is traditionally made in tandoor( a round clay oven) at a high temperature",
+    "price": 30.0,
+    "category": "Bread / Roti",
+    "image": "plain_roti.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Plain Roti - Tandoori",
+    "description": "Tandoori Roti is a very popular Indian flatbread recipe. It is traditionally made in tandoor( a round clay oven) at a high temperature",
+    "price": 30.0,
+    "category": "Bread / Roti",
+    "image": "plain_roti.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Butter Roti - Tandoori",
+    "description": "Tandoori Roti with butter is a very popular Indian flatbread recipe with butter brushed on it. It is traditionally made in tandoor( a round clay oven) at a high temperature",
+    "price": 35.0,
+    "category": "Bread / Roti",
+    "image": "butter_roti.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Garlic Naan",
+    "description": "Like most bread, garlic naan too is made with basic ingredients like flour, yeast, water/milk and also added are some grated garlic to the dough.",
+    "price": 130.0,
+    "category": "Bread / Roti",
+    "image": "garlic_naan.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Aloo Parantha",
+    "description": "Aloo paratha is a whole wheat flatbread that is stuffed with spicy mashed potatoes.",
+    "price": 120.0,
+    "category": "Bread / Roti",
+    "image": "aloo_parantha.jpg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Dal Tadka",
+    "description": "Dal Tadka is made of red lentils and tempered with aromatic spices, which is then added to the hot ghee",
+    "price": 230.0,
+    "category": "Side Dish",
+    "image": "dal_tadka.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Dal Makhani",
+    "description": "Dal makhani is a lentil recipe made with whole urad dal and kidney beans",
+    "price": 290.0,
+    "category": "Side Dish",
+    "image": "dal_makhani.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Butter Chicken - Full Portion",
+    "description": "Chunks of grilled chicken cooked in a smooth buttery & creamy tomato based gravy",
+    "price": 640.0,
+    "category": "Side Dish",
+    "image": "butter_chicken.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Punjabi Lemon Chicken",
+    "description": "Lemon chicken is marinated with lemon juice, then roasted with a few spices and fried onions in oil, and lastly cooked with curd, which gives a thick gravy.",
+    "price": 410.0,
+    "category": "Side Dish",
+    "image": "punjabi_lemon.jpg",
+    "qty": 0
+  },
+
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Moong Dal Halwa",
+    "description": "A dessert recipe which is a very famous North-Indian recipe and is made with yellow moong dal.",
+    "price": 220.0,
+    "category": "Desserts / Drinks",
+    "image": "dal_halwa.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Matka Khulfi",
+    "description": "A popular frozen traditional Indian ice cream recipe prepared with milk cream and topped with dry fruits, set in a earthen clay pot called as Matka",
+    "price": 100.0,
+    "category": "Desserts / Drinks",
+    "image": "matka_kulfi.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Salted Lassi",
+    "description": "A yogurt-based creamy, and chilled beverage with black salt added to, is a very popular drink",
+    "price": 80.0,
+    "category": "Desserts / Drinks",
+    "image": "salted_lassi.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbc",
+    "name": "Patiala Lassi",
+    "description": "Popular sweetened yogurt-based drink from Punjab. Shredded almonds are added to this drink. [1 ltr]",
+    "price": 310.0,
+    "category": "Desserts / Drinks",
+    "image": "patiala_lassi.jpg",
+    "qty": 0
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Pepper Chicken",
+    "description": "A flavourful toasted sub loaded with capsicum, olives & jalapeños. This warm sandwich has juicy black pepper chicken paired with creamy Italian sauce and white Italian bread as the base.",
+    "price": 299,
+    "category": "Sandwiches",
+    "image": "pepper.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Spicy Chick'n Cheese",
+    "description": "Multigrain, 2-cheese toasted sub with chicken slice, jalapeño, onion, capsicum and chilli mayo. Serving size - 304 g/ 663 kcal.",
+    "price": 299,
+    "category": "Sandwiches",
+    "image": "spicychick.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Great American BBQ",
+    "description": "Multigrain toasted sub with chicken pepperoni, chicken slice, smoked chicken strips, onion, pickle, capsicum, eggless mayo and barbecue sauce. Serving size - 253 g/ 539 kcal.",
+    "price": 309,
+    "category": "Sandwiches",
+    "image": "gr8am.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Corn & Peas Salad",
+    "description": "Experience a symphony of colours with the corn and peas salad. Green peas, golden corn and diced carrots, all held together with a smooth and creamy eggless mayonnaise sauce.",
+    "price": 279,
+    "category": "Salads",
+    "image": "salads.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Veggie Delite® Salad",
+    "description": "Enjoy the simpler things, the veggie delite salad is simply delish. A pile of your favourite veggies, finished with the dressing of your choice. Nutritious. Delicious. All for you.",
+    "price": 279,
+    "category": "Salads",
+    "image": "salads.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Tandoori Tofu Salad",
+    "description": "Have something unique. Have the tandoori tofu salad. Soft tofu flavoured with tandoori marinade & cooked in the oven, paired with your favourite veggies and a wonderful dressing.",
+    "price": 279,
+    "category": "Salads",
+    "image": "salads.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Veggie & Cheese Toastie",
+    "description": "The perfect on-the-go snack, enriched with mozzarella cheese, jalapenos, onions, and capsicum - on a toasted bread. ",
+    "price": 99,
+    "category": "Salads",
+    "image": "salads.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Tandoori Tofu Salad",
+    "description": "Have something unique. Have the tandoori tofu salad. Soft tofu flavoured with tandoori marinade & cooked in the oven, paired with your favourite veggies and a wonderful dressing.",
+    "price": 279,
+    "category": "Salads",
+    "image": "salads.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Tandoori Tofu Salad",
+    "description": "Have something unique. Have the tandoori tofu salad. Soft tofu flavoured with tandoori marinade & cooked in the oven, paired with your favourite veggies and a wonderful dressing.",
+    "price": 279,
+    "category": "Salads",
+    "image": "salads.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Chatpata Chana Signature Wrap",
+    "description": "Crave for more and get double portion of chatpata chana with this wrap. A perfect blend of chickpeas and Bengal gram along with nutritious vegetables and yummy sauces, packed inside a tortilla of your choice.",
+    "price": 279,
+    "category": "Signature Wraps",
+    "image": "chatpata.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Coke 330ml Can",
+    "description": "Coca Cola",
+    "price": 66.67,
+    "category": "Drinks",
+    "image": "coke.jpg",
+    "qty": 0
+  },
+  {
+    "restaurant_id": "650ffa19379e5dfd583b0bbd",
+    "name": "Maaza 300ml Can",
+    "description": "Maaza 300ml can",
+    "price": 279,
+    "category": "Salads",
+    "image": "salads.jpg",
+    "qty": 0
+  }
+]

@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  font-family: 'Martel Sans', sans-serif;
+
+}
+.main-heading {
+  font-size: 32px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #CC202E;
+  margin-bottom: 20px;
+  margin-left: 4rem;
+}
+.main-heading h2{
+  text-align: left !important;
+  font-size: 2rem;
+}
+.filter-heading {
+  font-size: 26px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.filter-sub-heading {
+  margin-top: 10px;
+  font-size: 22px;
+  color: darkslategray;
+}
+.locationSelection {
+  width: 270px;
+  height: 50px;
+  border-radius: 5px;
+}
+.upper-right {
+  margin-top: 10px;
+}
+.upper-section img {
+  height: 160px;
+  width: 160px;
+  border-radius: 20%;
+}
+.lower-section {
+  margin-bottom: 20px;
+}
+.upper-section {
+  margin-top: 20px;
+}
+.Main-heading {
+  font-size: 32px;
+}
+.Sub-heading {
+  margin-top: 5px;
+  font-size: 26px;
+  color: rgb(9, 104, 1);
+}
+.Address,
+.itm-name,
+.cost {
+  margin-top: 2px;
+  font-size: 21px;
+}
+.Item,
+.value {
+  margin-top: 2px;
+  font-size: 22px;
+}
+.value {
+  color: #CC202E;
+}
+.restaurant-box{
+  transition: 0.2s ease;
+}
+.restaurant-box:hover{
+  background-color: rgba(128, 128, 128, 0.493);  
+  cursor: pointer;
+  border-radius: 12px;
+  transform: scale(1.01);
+  transition: 0.2s ease;
+}
+.result-top {
+  margin-top: 10px;
+}
+
+.result-top,
+.result-bottom,
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.bottom-section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+}
+
+.filter-panel {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+  padding: 10px;
+
+  outline: none;
+  border-radius: 18px;
+}
+.result-panel {
+  padding: 15px;
+  box-shadow: 0 3px 6px 0 rgba(150, 145, 145, 0.16);
+  width: 790px;
+  border-radius: 18px;
+}
+
+.cuisine-opt,
+.radio-opt {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+label {
+  padding: 10px;
+  font-size: 20px;
+}
+.paginationButtons {
+  border: 1px solid navy;
+  padding: 5px;
+  margin-top: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.paginationButtons a {
+  text-decoration: none;
+  color: navy;
+}
+.lower-section {
+  text-align: left;
+}
+.result-bottom {
+  outline: none;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+}
+.header {
+  background-color: #CC202E;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 38px;
+}
+
+.header header {
+  text-align: right;
+  margin-right: 150px;
+  line-height: 2;
+  font-size: 22px;
+  padding: 3px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+#create {
+  border: 1px solid white;
+  margin-left: 13px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.no-rec{
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.clearFilter{
+border: none;
+min-width: 6rem;
+border-radius: 14px;
+background-color: #CC202E;
+color: white;
+}
+.clearFilter:hover{
+  background-color: rgb(236, 53, 53);
+}
+
+
+@media screen and (max-width: 768px) {
+  .bottom-right{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+  }
+  .restaurant-box{
+    width: 665px;
+  }
+}
+@media screen and (max-width: 426px){
+
+  .upper-section, .lower-section{
+    display: none;
+  }
+  .bottom-right{
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .restaurant-box{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+}
+@media screen and (max-width: 376px) {
+  .bottom-right{
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    padding-left: 1rem;
+  }
+  .restaurant-box{
+    width: 300px;
+  }
+  .logged{
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 321px) {
+  .main-heading{
+    margin-bottom: 20px;
+    margin-left: 1.5rem;
+  
+  }
+  .bottom-right{
+    width: 320px;
+    padding: 0 1rem;
+  }
+  .restaurant-box{
+    width: 300px;
+  }
+}
+
+
+/* General styling for checkboxes */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Style for checked state of checkboxes */
+input[type="checkbox"]:checked {
+  background-color: #CC202E;
+  border-color: #CC202E;
+}
+
+
+
+/* General styling for radio buttons */
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 5px; /* Adjust as needed */
+  cursor: pointer;
+}
+
+/* Style for checked state of radio buttons */
+input[type="radio"]:checked {
+  background-color: #CC202E;
+  border-color: #CC202E;
+}

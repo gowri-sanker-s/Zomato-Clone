@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.top-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: -80px;
+}
+header {
+  position: absolute;
+  top: 20px;
+  right: 200px;
+}
+#login,
+#create {
+  font-size: 16px;
+  color: white;
+  margin-left: 20px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+#create {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.desc {
+  color: white;
+}
+.logo-part {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  border-radius: 50%;
+}
+.input-fields {
+  display: flex;
+  justify-content: center;
+}
+#city {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+}
+input {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+#box {
+  height: 40px;
+  width: 300px;
+}
+.rest-search input {
+  margin-left: 2px;
+  border-left: 1px solid gray;
+}
+
+.quick-section {
+  margin: auto;
+  width: 72%;
+}
+.rest-cards {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 110px;
+
+}
+
+.rest {
+  display: flex;
+  gap: 40px;
+  width: 350px;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 4px 2px gray;
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+
+.rest:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.404);
+  transform: scale(1.12);
+}
+.rest-cards:hover .rest:not(:hover) {
+  opacity: 0.3;
+}
+
+.rest img {
+  border-radius: 10px;
+}
+.food-det {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.food-det p {
+  font-size: 14px;
+}
+@media screen and (max-width: 468px) {
+  .input-fields {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .quick-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rest-cards{
+    display: flex;
+    justify-content: center;
+  }
+}

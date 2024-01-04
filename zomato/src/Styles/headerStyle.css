@@ -1,0 +1,181 @@
+
+.header {
+  position: relative;
+  margin-bottom: 0;
+}
+.header-logo {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  line-height: 2;
+  text-align: center;
+  background-color: azure;
+  color: rgb(211, 9, 9);
+  border-radius: 50%;
+}
+.header-logo:hover, .historyBtn:hover, .userBtn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transform: scale(1.04);
+}
+.header-logo:hover{
+  color: white !important;
+}
+.historyBtn, .userBtn{
+ width: 2rem;
+ border-radius: 50%;
+ border: none;
+ transition: 0.3s ease-in;
+}
+.user-acc {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  display: flex;
+  gap: 10px;
+  line-height: 1.5;
+}
+.login,
+.logged {
+
+  color: black;
+}
+.login:hover{
+  color: white;
+}
+.signup {
+  color: black;
+  padding: 0 0.4rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.signup:hover{
+  background-color: black;
+  color: white;
+  transform: scale(1.04);
+}
+.loggedout{
+  border: 2px solid white;
+  padding: 0 0.5rem;
+  text-align: center;
+  border-radius: 22px;
+  transition: all 0.3s ease;
+  color: white;
+
+}
+.loggedout:hover{
+  background-color: white;
+  color: black;
+  transform: scale(1.06);
+}
+.login-input-fields {
+  display: flex;
+  flex-direction: column;
+}
+.login-input-fields input {
+  height: 2.2rem;
+  margin: 5px;
+  padding-left: 1rem;
+  background-color: rgb(235, 235, 235);
+  color: black;
+}
+.login-input-fields input:focus{
+  border-left: 5px solid #CC202E;
+  color: black;
+}
+.primary-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.login1 {
+  background-color: #CC202E;
+  border: none;
+  min-height: 2.5rem;
+  min-width: 7rem;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: 3px solid #CC202E ;
+  outline-offset: -5px;
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+.login1:hover{
+  outline-offset: 2px;
+  background-color: #5B8FB9;
+  outline: 3px solid #5B8FB9 ;
+  color: black;
+
+}
+.cancel {
+  border: none;
+  min-height: 2rem;
+  min-width: 6rem;
+  border-radius: 5px;
+  background-color: rgb(209, 206, 206);
+}
+.secondary-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fb-btn,
+.google-btn {
+  height: 35px;
+  width: 300px;
+  margin-top: 10px;
+}
+select {
+  height: 40px;
+  text-align: center;
+  color: rgb(137, 136, 136);
+}
+.suggestionList {
+  background-color: darkgrey;
+  color: white;
+  margin-top: 2px;
+}
+.top-login-modal {
+  display: flex;
+  flex-direction: row;
+}
+.close-btn {
+  position: absolute;
+  right: 1.4rem;
+  min-height: 1.5rem;
+  min-width: 2rem;
+}
+.close-btn:hover {
+  color: white;
+  background-color: rgb(139, 0, 0);
+  border: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.login:hover {
+  cursor: pointer;
+}
+.logged {
+  color: white;
+  text-align: center;
+  cursor: default;
+}
+.signup:hover {
+  cursor: pointer;
+}
+
+.login-popup{
+  height: 15rem;
+  width: 18rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
